@@ -6,8 +6,11 @@
 //  Copyright © 2019 CodeWithShipra. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Vehicle.h"
 
-@interface Motorcycle : NSObject
+@interface Motorcycle : Vehicle
+
+@property NSString *engineNoise;
 
 @end
+

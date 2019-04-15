@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Car : NSObject
+#import "Vehicle.h"
+
+@interface Car : Vehicle
+
+@property BOOL isConvertible;
+@property BOOL isHatchback;
+@property BOOL hasSunroof;
+@property NSInteger numberOfDoors;
 
 @end
+

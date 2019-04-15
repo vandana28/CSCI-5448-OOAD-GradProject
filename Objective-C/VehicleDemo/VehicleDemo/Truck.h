@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Truck : NSObject
+#import "Vehicle.h"
 
+@interface Truck : Vehicle
+
+@property NSInteger cargoCapacityCubicFeet;
 @end
+
