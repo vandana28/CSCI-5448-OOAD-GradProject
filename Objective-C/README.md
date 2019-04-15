@@ -1,4 +1,23 @@
-This is an example to show some basic object-oriented techniques in Objective-C.
+This is an example to show some basic object-oriented techniques in Objective-C such as:
+1. Class
+2. Object
+3. Encapsulation
+4. Inheritance
+5. Abstraction
+6. Polymorphism
+
+We have a base class Vehicle and derived classes such as Car, Truck and Motorcycle.
+Vehicle has some properties which are the common characteristics of any vehicle such as brand, model number, number of wheels, etc.
+In Objectice-C, every class is a subclass of NSObject.
+A vehicle has behaviors such as goForward(), goBackward(),  stop(), changeGears(), etc. These are the instance methods of Vehicle and all the subclasses override these methods. The subclasses can access all the public properties of Vehicle class and can also have their own instance variables.
+The main class shows polymorphism where we create an array of objects and make each vehicle do a set of operations.
+
+
+### How to execute using Xcode:
+1. Download the folder VehicleDemo
+2. Open a new project in XCode and select VehicleDemo
+3. Click Build
+
 Running the code will produce the following output:
 ```
 
