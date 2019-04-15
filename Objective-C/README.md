@@ -5,6 +5,8 @@ This is an example to show some basic object-oriented techniques in Objective-C 
 4. Inheritance
 5. Abstraction
 6. Polymorphism
+7. Method overriding
+8. Access Specifiers
 
 We have a base class Vehicle and derived classes such as Car, Truck and Motorcycle.
 Vehicle has some properties which are the common characteristics of any vehicle such as brand, model number, number of wheels, etc.
