@@ -11,13 +11,14 @@ Vehicle has some properties which are the common characteristics of any vehicle 
 In Objectice-C, every class is a subclass of NSObject.
 A vehicle has behaviors such as goForward(), goBackward(),  stop(), changeGears(), etc. These are the instance methods of Vehicle and all the subclasses override these methods. The subclasses can access all the public properties of Vehicle class and can also have their own instance variables.
 The main class shows polymorphism where we create an array of objects and make each vehicle do a set of operations.
-
+Comments are provided for better insights.
 
 ### How to execute using Xcode:
 1. Download the folder VehicleDemo
 2. Open a new project in XCode and select VehicleDemo
 3. Click Build
 
+### Output:
 Running the code will produce the following output:
 ```
 
